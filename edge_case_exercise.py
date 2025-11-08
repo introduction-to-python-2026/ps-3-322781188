@@ -19,7 +19,7 @@ def move(my_list, direction=None):
     return my_list
 
 
-ef pay():
+def pay():
   n_terms = 10
   list_of_numbers = []
   for i in range(n_terms):
