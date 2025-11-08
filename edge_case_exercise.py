@@ -17,6 +17,9 @@ def move(my_list, direction=None):
         my_list[index_of_one - 1] = 1
 
     return my_list
+    the_pig_location = [0, 0, 0, 1, 0, 0]
+    print(move(the_pig_location, "right"))  
+
 
 
 def pay():
